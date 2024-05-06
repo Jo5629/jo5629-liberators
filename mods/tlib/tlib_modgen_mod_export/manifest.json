@@ -1,0 +1,40 @@
+{
+	"bounds" : 
+	{
+		"max" : 
+		{
+			"x" : -3.0,
+			"y" : 1.0,
+			"z" : -3.0
+		},
+		"min" : 
+		{
+			"x" : -3.0,
+			"y" : 1.0,
+			"z" : -3.0
+		}
+	},
+	"chunks" : 58.0,
+	"mtime" : 1715028604.0,
+	"next_id" : 14.0,
+	"node_mapping" : 
+	{
+		"air" : 0.0,
+		"tlib_map:coral_skeleton" : 5.0,
+		"tlib_map:dirt" : 1.0,
+		"tlib_map:galaxy_node" : 9.0,
+		"tlib_map:glass" : 4.0,
+		"tlib_map:goldblock" : 10.0,
+		"tlib_map:info_node" : 7.0,
+		"tlib_map:stone" : 2.0,
+		"tlib_map:stonebrick" : 3.0,
+		"tlib_map:warp_node" : 13.0,
+		"tlib_map:wool_dark_green" : 6.0,
+		"tlib_map:wool_dark_grey" : 11.0,
+		"tlib_map:wool_red" : 12.0,
+		"tlib_map:wool_yellow" : 8.0
+	},
+	"size" : 284512.0,
+	"uid" : "672017",
+	"version" : 4.0
+}

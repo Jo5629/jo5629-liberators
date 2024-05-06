@@ -2,6 +2,7 @@ local nodes_modpath = minetest.get_modpath(minetest.get_current_modname()) .. "/
 
 dofile(nodes_modpath .. "/info.lua")
 dofile(nodes_modpath .. "/warp.lua")
+dofile(nodes_modpath .. "/galaxy_node.lua")
 
 --> Most of the code from https://github.com/MT-CTF/capturetheflag/blob/master/mods/ctf/ctf_map/nodes.lua
 

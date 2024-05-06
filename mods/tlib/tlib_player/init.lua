@@ -1,6 +1,5 @@
 tlib_player = {
     default_skin = "liberator_skin.png",
-    default_spawn = {x = 0, y = 1, z = 0}
 }
 
 minetest.register_on_joinplayer(function(player)
@@ -8,5 +7,7 @@ minetest.register_on_joinplayer(function(player)
     attributes.color.a = 0
     player:set_nametag_attributes(attributes)
     player_api.set_texture(player, 1, tlib_player.default_skin)
-    player:set_pos(tlib_player.default_spawn)
+    if tlib_core.server_mode == "play" then
+        player:set_pos(tlib_core.default_spawn)
+    end
 end)
