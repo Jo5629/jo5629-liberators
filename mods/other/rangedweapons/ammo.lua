@@ -454,7 +454,7 @@ minetest.register_craftitem("rangedweapons:rifle_mag", {
 })
 
 minetest.register_craftitem("rangedweapons:9mm", {
-	stack_max= 500,
+	stack_max= 65535,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff","9x19mm Parabellum\n")..core.colorize("#FFFFFF", "Bullet damage: 1 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.25 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 1% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 25 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 1 \n")   ..core.colorize("#FFFFFF", "Ammunition for some guns"),
 	inventory_image = "rangedweapons_9mm.png",
@@ -476,7 +476,7 @@ minetest.register_craftitem("rangedweapons:9mm", {
 	}
 })
 minetest.register_craftitem("rangedweapons:45acp", {
-	stack_max= 450,
+	stack_max= 65535,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff",".45ACP catridge\n")..core.colorize("#FFFFFF", "Bullet damage: 2 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.50 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 2% \n")
 ..core.colorize("#FFFFFF", "Bullet velocity: 20 \n") 
@@ -500,7 +500,7 @@ minetest.register_craftitem("rangedweapons:45acp", {
 	},
 })
 minetest.register_craftitem("rangedweapons:10mm", {
-	stack_max= 400,
+	stack_max= 65535,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff","10mm Auto\n")..core.colorize("#FFFFFF", "Bullet damage: 2 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency:0.30 \n") ..core.colorize("#FFFFFF", "Bullet velocity: 25 \n") 
 ..core.colorize("#FFFFFF", "Bullet knockback: 1 \n")  ..core.colorize("#FFFFFF", "Bullet crit chance: 1% \n") ..core.colorize("#FFFFFF", "Ammunition for some guns"),
@@ -525,7 +525,7 @@ minetest.register_craftitem("rangedweapons:10mm", {
 
 
 minetest.register_craftitem("rangedweapons:357", {
-	stack_max= 150,
+	stack_max= 65535,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff",".357 magnum round\n")..core.colorize("#FFFFFF", "Bullet damage: 4 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.6 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 3% \n") ..core.colorize("#FFFFFF", "Bullet knockback: 5 \n") ..core.colorize("#FFFFFF", "Bullet enemy Penetration: 5%\n") ..core.colorize("#FFFFFF", "Bullet velocity: 45 \n")    ..core.colorize("#FFFFFF", "Ammunition for some guns"),
 	inventory_image = "rangedweapons_357.png",
@@ -549,7 +549,7 @@ minetest.register_craftitem("rangedweapons:357", {
 })
 
 minetest.register_craftitem("rangedweapons:50ae", {
-	stack_max= 100,
+	stack_max= 65535,
 	wield_scale = {x=0.6,y=0.6,z=1.5},
 		description = "" ..core.colorize("#35cdff",".50AE catridge\n")..core.colorize("#FFFFFF", "Bullet damage: 8 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.9 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 6% \n") ..core.colorize("#FFFFFF", "Bullet knockback: 10 \n") ..core.colorize("#FFFFFF", "Bullet enemy Penetration: 15%\n") ..core.colorize("#FFFFFF", "Bullet velocity: 55 \n")    ..core.colorize("#FFFFFF", "Ammunition for some guns"),
 	inventory_image = "rangedweapons_50ae.png",
@@ -573,7 +573,7 @@ minetest.register_craftitem("rangedweapons:50ae", {
 })
 
 minetest.register_craftitem("rangedweapons:44", {
-	stack_max= 150,
+	stack_max= 65535,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff",".44 magnum round\n")..core.colorize("#FFFFFF", "Bullet damage: 4 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.7 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 4% \n") ..core.colorize("#FFFFFF", "Bullet knockback: 6 \n") ..core.colorize("#FFFFFF", "Bullet enemy Penetration: 6%\n") ..core.colorize("#FFFFFF", "Bullet velocity: 50 \n")  ..core.colorize("#FFFFFF", "Ammunition for some guns"),
 	inventory_image = "rangedweapons_44.png",
@@ -596,7 +596,7 @@ minetest.register_craftitem("rangedweapons:44", {
 	}
 })
 minetest.register_craftitem("rangedweapons:762mm", {
-	stack_max= 250,
+	stack_max= 65535,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff","7.62mm round\n")..core.colorize("#FFFFFF", "Bullet damage: 4 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.5 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 2% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 40 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 4 \n") ..core.colorize("#FFFFFF", "Bullet enemy Penetration: 5%\n")   ..core.colorize("#FFFFFF", "Ammunition for some guns"),
 	inventory_image = "rangedweapons_762mm.png",
@@ -619,7 +619,7 @@ minetest.register_craftitem("rangedweapons:762mm", {
 	},
 })
 minetest.register_craftitem("rangedweapons:556mm", {
-	stack_max= 300,
+	stack_max= 65535,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff","5.56mm round\n")..core.colorize("#FFFFFF", "Bullet damage: 3 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.4 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 2% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 35 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 3 \n")    ..core.colorize("#FFFFFF", "Ammunition for some guns"),
 	inventory_image = "rangedweapons_556mm.png",
@@ -641,7 +641,7 @@ minetest.register_craftitem("rangedweapons:556mm", {
 	},
 })
 minetest.register_craftitem("rangedweapons:shell", {
-	stack_max= 50,
+	stack_max= 65535,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff","12 Gauge shell\n")..core.colorize("#FFFFFF", "Bullet damage: 2 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.15 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 1% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 20 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 4 \n") ..core.colorize("#FFFFFF", "Bullet gravity: 5 \n")  ..core.colorize("#FFFFFF", "Bullet projectile multiplier: 1.5x\n")   ..core.colorize("#FFFFFF", "Ammunition for some guns"),
 	inventory_image = "rangedweapons_shell.png",
@@ -666,7 +666,7 @@ minetest.register_craftitem("rangedweapons:shell", {
 	},
 })
 minetest.register_craftitem("rangedweapons:308winchester", {
-	stack_max= 75,
+	stack_max= 65535,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff",".308 winchester round\n")..core.colorize("#FFFFFF", "Bullet damage: 8 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.75 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 4% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 60 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 10 \n") ..core.colorize("#FFFFFF", "Damage gain over 1 sec of flight time: 40 \n") ..core.colorize("#FFFFFF", "Bullet enemy Penetration: 20%\n") ..core.colorize("#FFFFFF", "Bullet node Penetration: 10%\n")      ..core.colorize("#FFFFFF", "Ammunition for some guns"),
 	inventory_image = "rangedweapons_308winchester.png",
@@ -692,7 +692,7 @@ minetest.register_craftitem("rangedweapons:308winchester", {
 })
 
 minetest.register_craftitem("rangedweapons:408cheytac", {
-	stack_max= 40,
+	stack_max= 65535,
 	wield_scale = {x=0.65,y=0.65,z=1.5},
 		description = "" ..core.colorize("#35cdff",".408 chey tac\n")..core.colorize("#FFFFFF", "Bullet damage: 10 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.8 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 5% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 70 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 15 \n") ..core.colorize("#FFFFFF", "Damage gain over 1 sec of flight time: 80 \n") ..core.colorize("#FFFFFF", "Bullet enemy Penetration: 45%\n") ..core.colorize("#FFFFFF", "Bullet node Penetration: 20%\n")      ..core.colorize("#FFFFFF", "Ammunition for some guns"),
 	inventory_image = "rangedweapons_408cheytac.png",
@@ -718,7 +718,7 @@ minetest.register_craftitem("rangedweapons:408cheytac", {
 })
 
 minetest.register_craftitem("rangedweapons:40mm", {
-	stack_max= 25,
+	stack_max= 65535,
 	wield_scale = {x=0.8,y=0.8,z=2.4},
 		description = "" ..core.colorize("#35cdff",".40mm grenade\n")..core.colorize("#FFFFFF", "Bullet damage: 10 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 1.0 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 1% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 15 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 10 \n") ..core.colorize("#FFFFFF", "Bullet gravity: 5 \n")  ..core.colorize("#FFFFFF", "explodes on impact with a radius of 2\n")  ..core.colorize("#FFFFFF", "Ammunition for grenade launchers"),
 	inventory_image = "rangedweapons_40mm.png",
@@ -759,7 +759,7 @@ ammo_particles = {
 })
 
 minetest.register_craftitem("rangedweapons:rocket", {
-	stack_max= 15,
+	stack_max= 65535,
 	wield_scale = {x=1.2,y=1.2,z=2.4},
 		description = "" ..core.colorize("#35cdff","rocket\n")..core.colorize("#FFFFFF", "Bullet damage: 15 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 1.0 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 1% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 20 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 20 \n") ..core.colorize("#FFFFFF", "Bullet gravity: 5 \n")  ..core.colorize("#FFFFFF", "explodes on impact with a radius of 3\n")  ..core.colorize("#FFFFFF", "Ammunition for rocket launchers"),
 	inventory_image = "rangedweapons_rocket.png",
