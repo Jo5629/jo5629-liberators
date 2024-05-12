@@ -15,8 +15,8 @@
 		}
 	},
 	"chunks" : 2.0,
-	"mtime" : 1715122422.0,
-	"next_id" : 21.0,
+	"mtime" : 1715443024.0,
+	"next_id" : 22.0,
 	"node_mapping" : 
 	{
 		"air" : 0.0,
@@ -39,9 +39,10 @@
 		"tlib_map:stonebrick" : 11.0,
 		"tlib_map:tinblock" : 4.0,
 		"tlib_map:walls_cobble" : 8.0,
-		"tlib_map:warp_node" : 17.0
+		"tlib_map:warp_node" : 17.0,
+		"tlib_map:wool_black" : 21.0
 	},
-	"size" : 10857.0,
+	"size" : 10866.0,
 	"uid" : "108596",
 	"version" : 4.0
 }

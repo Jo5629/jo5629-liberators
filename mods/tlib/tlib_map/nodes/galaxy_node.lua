@@ -17,7 +17,7 @@ local planets_info = {
     "- Cold and desolate planet.",
     "- Home of the Merilians.",
     "- Heavily defended.",
-    minetest.colorize("#FF0000", "\nPLANETS CONTROLLED BY THE MERILIANS AS OF \nMAY 6, 3024:"),
+    minetest.colorize("#FF0000", "\nPLANETS CONTROLLED BY THE MERILIANS AS OF \nMAY 6, 2124:"),
     "- GOIYAMA\n- CHONOE B12\n- ARUTA"
 }
 local galaxy_formspec = flow.make_gui(function(player, ctx)
