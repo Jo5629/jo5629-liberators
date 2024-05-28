@@ -7,11 +7,3 @@ tlib_core = {
     worldpath = minetest.get_worldpath() .. "/tlib",
 }
 minetest.mkdir(tlib_core.worldpath)
-
-local function always_day()
-    minetest.set_timeofday(0.5)
-    minetest.after(60, function()
-        always_day()
-    end)
-end
-always_day()

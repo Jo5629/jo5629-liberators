@@ -11,4 +11,5 @@ local skybox = {
     player:set_sky({type = "skybox", textures = skybox, clouds = false})
     player:set_sun({visible = false, sunrise_visible = false})
     player:set_moon({visible = false})
+    player:override_day_night_ratio(1)
 end)
