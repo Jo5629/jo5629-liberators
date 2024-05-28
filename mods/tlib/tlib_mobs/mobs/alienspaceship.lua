@@ -1,4 +1,4 @@
-local function herbivore_brain(self)
+local function AlienSpaceship_brain(self)
 	mobkit.vitals(self)
 
 	if self.hp <= 0 then
@@ -42,7 +42,7 @@ minetest.register_entity("tlib_mobs:AlienSpaceship", {
         walk = {range = {x = 0, y = 54}, speed = 30, frame_blend = 0.3, loop = true},
     },
 
-    brainfunc = herbivore_brain,
+    brainfunc = AlienSpaceship_brain,
 
 	on_punch=function(self, puncher, time_from_last_punch, tool_capabilities, dir)
 		local hvel = vector.multiply(vector.normalize({x=dir.x,y=0,z=dir.z}),4)

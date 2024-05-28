@@ -9,8 +9,9 @@
   - [ ] Probably will use modgen, LBMs, or ABMs.
 - [ ] Enemies (Mobs API, Mobkit, or Creatura?).
   - [ ] Enemies to fight.
-  - [ ] Use Blender? (Procrastination & thinking Blender is too difficult is being a hindrance to me)
-- [ ] Working player.
+  - [ ] Blockbench to make model. ~~Use Blender? (Procrastination & thinking Blender is too difficult is being a hindrance to me)~~
+  - [ ] Blender for importing/exporting as well as any simple modifications.
+- [x] Working player.
   - [x] Skin
   - [x] Armor
   - [x] Set inventory when they join.
