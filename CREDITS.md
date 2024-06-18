@@ -15,7 +15,6 @@
 
 ## Other Mods
 
-- Wield 3D by stu (WTFPL) - [ContentDB Page](https://content.minetest.net/packages/stu/wield3d/)
 - Rangedweapons by Lars (CC BY-SA 4.0) - [ContentDB Page](https://content.minetest.net/packages/Lars/rangedweapons/)
 - Flow by Luke (LGPL-3.0-or-later) - [ContentDB Page](https://content.minetest.net/packages/luk3yx/flow/)
 - Formspec AST by Luke (MIT) - [ContentDB Page](https://content.minetest.net/packages/luk3yx/formspec_ast/)

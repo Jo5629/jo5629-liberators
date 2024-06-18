@@ -7,3 +7,6 @@ tlib_core = {
     worldpath = minetest.get_worldpath() .. "/tlib",
 }
 minetest.mkdir(tlib_core.worldpath)
+
+dofile(modpath .. "/callbacks.lua")
+dofile(modpath .. "/drops.lua")

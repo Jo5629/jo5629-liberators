@@ -1,33 +1,12 @@
-# Game Features
+# Goals for the Game
 
-## High-Priority
-
-- [ ] Working planet system (use schematics?).
-  - [ ] Structured as missions???.
-    - [ ] Create an API for this.
-    - [ ] Make about 3 missions per planet.
-  - [ ] Probably will use modgen, LBMs, or ABMs.
-- [ ] Enemies (Mobs API, Mobkit, or Creatura?).
-  - [ ] Enemies to fight.
-  - [ ] Blockbench to make model. ~~Use Blender? (Procrastination & thinking Blender is too difficult is being a hindrance to me)~~
-  - [ ] Blender for importing/exporting as well as any simple modifications.
-- [x] Working player.
-  - [x] Skin
-  - [x] Armor
-  - [x] Set inventory when they join.
-- [x] Tutorial and home base.
-  - [x] Node to show tutorial.
-  - [x] Lobby (Used modgen with this).
-
-## Medium-Priority
-
-- [ ] Working storyline.
-- [ ] Changing player loadouts.
-  - [x] Using a modified rangedweapons mod.
-- [ ] Make own weapons.
-  - [ ] Tie to the storyline.
-
-## Low-Priority
-
-- [ ] Customizable skins.
-- [ ] Everything changing in real time. (Probably will not do this anymore.)
+- [ ] Make it a roguelite game.
+- [ ] Randomly generating maps.
+  - [ ] Multiple structures to be used.
+  - [ ] Probably use structure_generator.
+- [ ] Squads
+  - [ ] Use the parties mod maybe?
+- [ ] More mobs.
+- [ ] Have objectives.
+- [ ] Create lots of callbacks to make life easier down the road.
+  - [ ] Create DOCUMENTATION.md for future reference and to help developers.
